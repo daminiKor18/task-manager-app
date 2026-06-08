@@ -1,9 +1,26 @@
-Task Manager App
-Project Title & Brief Description
+ ##Task Manager App
 
-Task Manager App is a full-stack web application developed using React.js, Vite, Node.js, and Express.js. The application allows users to efficiently manage daily tasks through features such as task creation, editing, deletion, searching, filtering, and completion tracking. The project demonstrates full-stack CRUD operations, REST API integration, frontend-backend communication, and file-based (JSON) data persistence using the Node.js filesystem module. It is deployed with a separate frontend and backend architecture.
+## Project Title & Brief Description
 
-Live Demo Links
+Task Manager App is a full-stack web application developed using React.js, Vite, Node.js, and Express.js.
+
+The application allows users to efficiently manage daily tasks through features such as:
+
+Task creation
+Editing and deletion
+Searching and filtering
+Completion tracking
+
+This project demonstrates:
+
+Full-stack CRUD operations
+REST API integration
+Frontend–backend communication
+File-based (JSON) data persistence using Node.js filesystem module
+
+It is deployed using a separate frontend (Vercel) and backend (Render) architecture.
+
+## Live Demo Links
 Frontend Deployment
 
 https://task-manager-app-ten-tawny.vercel.app/
@@ -16,8 +33,9 @@ API Base URL
 
 https://task-manager-app-jwtv.onrender.com/tasks
 
-Tech Stack
-Frontend Technologies
+##  Tech Stack
+
+## Frontend Technologies
 React.js
 
 Used for building reusable UI components and managing application state efficiently.
@@ -30,14 +48,14 @@ CSS
 
 Used for styling the application and creating a responsive user interface.
 
-Backend Technologies
+##  Backend Technologies
 Node.js
 
 JavaScript runtime environment used for backend development.
 
 Express.js
 
-Used to build RESTful APIs and handle server-side routing.
+Used to build REST APIs and handle server-side routing.
 
 CORS
 
@@ -45,9 +63,9 @@ Used to enable communication between frontend and backend hosted on different do
 
 File System (fs)
 
-Used for reading and writing tasks.json to implement file-based persistent storage.
+Used for reading and writing tasks.json for file-based persistent storage.
 
-Deployment Platforms
+## Deployment Platforms
 Vercel
 
 Used for frontend deployment.
@@ -56,23 +74,25 @@ Render
 
 Used for backend deployment.
 
-Version Control
+## Version Control
 Git
 GitHub
 
 Git is used for version control and GitHub for repository hosting and project management.
 
-How to Run Locally
-Prerequisites
+## How to Run Locally
+# Prerequisites
 
 Make sure you have installed:
 
 Node.js
 npm
-Clone Repository
+
+## Clone Repository
 git clone https://github.com/daminiKor18/task-manager-app.git
 cd task-manager-app
-Backend Setup
+
+# Backend Setup
 Navigate to Server Folder
 cd server
 Install Dependencies
@@ -83,7 +103,7 @@ node server.js
 Backend runs on:
 
 http://localhost:5000
-Frontend Setup
+# Frontend Setup
 
 Open a new terminal window.
 
@@ -97,22 +117,17 @@ npm run dev
 Frontend runs on:
 
 http://localhost:5173
-API Documentation
+
+## API Documentation
 Base URL
 
 https://task-manager-app-jwtv.onrender.com
 
+
 1. Fetch All Tasks
-Method
-
-GET
-
-Endpoint
-/tasks
-Description
-
-Retrieves all tasks stored in the backend.
-
+Method: GET
+Endpoint: /tasks
+Description: Retrieves all tasks stored in the backend.
 Sample Response
 [
   {
@@ -124,12 +139,9 @@ Sample Response
   }
 ]
 2. Add New Task
-Method
-
-POST
-
-Endpoint
-/tasks
+Method: POST
+Endpoint: /tasks
+Description: Creates a new task.
 Request Body
 {
   "id": 1780909845548,
@@ -142,37 +154,26 @@ Response
 {
   "message": "Task added successfully"
 }
+
 3. Update Task
-Method
-
-PUT
-
-Endpoint
-/tasks/:id
-Description
-
-Updates an existing task using its ID.
-
+Method: PUT
+Endpoint: /tasks/:id
+Description: Updates an existing task using its ID.
 Response
 {
   "message": "Task updated successfully"
 }
+
 4. Delete Task
-Method
-
-DELETE
-
-Endpoint
-/tasks/:id
-Description
-
-Deletes a task using its ID.
-
+Method: DELETE
+Endpoint: /tasks/:id
+Description: Deletes a task using its ID.
 Response
 {
   "message": "Task deleted successfully"
 }
-Project Structure
+
+📁 Project Structure
 task-manager-app/
 │
 ├── client/
@@ -192,7 +193,10 @@ task-manager-app/
 │
 ├── .gitignore
 └── README.md
-Folder Description
+
+
+📂 Folder Description
+
 client/
 
 Contains the React frontend including UI components, styling, and API integration.
@@ -213,26 +217,30 @@ App.css
 
 Handles styling and responsive UI design.
 
-Features
-Add new tasks
-Edit existing tasks
-Delete tasks
-Toggle task completion
-Search tasks dynamically
-Filter tasks by status
-Due date management
-Overdue task detection
-File-based persistent storage
-REST API integration
-Responsive UI design
-Full-stack deployment
-Challenges Faced
+## Features
+
+1.Add new tasks
+2.Edit existing tasks
+3.Delete tasks
+4.Toggle task completion
+5.Search tasks dynamically
+6.Filter tasks by status
+7.Due date management
+8.Overdue task detection
+9.File-based persistent storage
+10.REST API integration
+11.Responsive UI design
+12.Full-stack deployment
+
+## Challenges Faced
+
 Frontend–backend integration
 Handling asynchronous API requests
 Deploying frontend and backend separately
 Configuring production API URLs
 Managing file-based data persistence
-Learning Outcomes
+
+## Learning Outcomes
 
 Through this project, I learned:
 
@@ -243,7 +251,8 @@ Express.js backend development
 Git and GitHub workflow
 Deployment using Vercel and Render
 Debugging real-world full-stack issues
-Next Steps / Future Improvements
+## Next Steps / Future Improvements
+
 User authentication and authorization
 MongoDB integration
 Drag and drop task management
@@ -251,6 +260,7 @@ Dark mode support
 Task priority system
 Notifications and reminders
 Real-time updates
-Author
+
+# Author
 
 Damini Koranga
