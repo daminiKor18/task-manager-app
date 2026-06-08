@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import "./App.css";
+
 function App()
 {
     // state for tasks
@@ -26,7 +27,7 @@ function App()
     // fetch tasks from backend
     useEffect(() => {
 
-        fetch("http://localhost:5000/tasks")
+        fetch("https://task-manager-app-jwtv.onrender.com/tasks")
             .then((response) => response.json())
             .then((data) => {
 
@@ -69,7 +70,7 @@ function App()
                 dueDate: dueDate
             };
 
-            fetch(`http://localhost:5000/tasks/${editTaskId}`, {
+            fetch(`https://task-manager-app-jwtv.onrender.com/tasks/${editTaskId}`, {
 
                 method: "PUT",
 
@@ -120,7 +121,7 @@ function App()
             createdAt: new Date()
         };
 
-        fetch("http://localhost:5000/tasks", {
+        fetch("https://task-manager-app-jwtv.onrender.com/tasks", {
 
             method: "POST",
 
@@ -172,7 +173,7 @@ function App()
             return;
         }
 
-        fetch(`http://localhost:5000/tasks/${id}`, {
+        fetch(`https://task-manager-app-jwtv.onrender.com/tasks/${id}`, {
 
             method: "DELETE"
 
@@ -205,7 +206,7 @@ function App()
                     completed: !task.completed
                 };
 
-                fetch(`http://localhost:5000/tasks/${id}`, {
+                fetch(`https://task-manager-app-jwtv.onrender.com/tasks/${id}`, {
 
                     method: "PUT",
 
