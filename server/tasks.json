@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": 1780909845548,
+    "title": "practice dsa ",
+    "description": "4 questions of dsa",
+    "dueDate": "2026-06-08",
+    "completed": true,
+    "createdAt": "2026-06-08T09:10:45.548Z"
+  },
+  {
+    "id": 1780909884739,
+    "title": "learn oops concepts",
+    "description": "basic concepts of oops",
+    "dueDate": "2026-06-09",
+    "completed": false,
+    "createdAt": "2026-06-08T09:11:24.739Z"
+  }
+]
