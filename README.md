@@ -118,6 +118,15 @@ Frontend runs on:
 
 http://localhost:5173
 
+
+## Screenshots
+
+### Task List Page
+![Task List](./screenshots/tasks.png)
+
+### Main UI
+![UI](./screenshots/UI.png)
+
 ## API Documentation
 Base URL
 
